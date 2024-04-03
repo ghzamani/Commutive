@@ -1,0 +1,79 @@
+
+/* ALL CSS IN THIS FILE MUST BE ACCEPTED*/
+.has-search{ 
+    display: flex;
+    border: 1px solid #726f75;
+    border-radius: 7px;
+    background-color: white;
+  }
+  
+  .has-search:focus-within{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #726f75;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0px 0px 6px #726f75;
+  }
+  
+  .has-search input[type="search"]::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+      /*background: */
+    }
+    
+    .has-search input[type=search]:focus:not([readonly]) {
+      /*border: 1px solid #ce93d8;
+      box-shadow: 0px 0px 0px 1px #ce93d8;*/
+      /* border-color: #552097; */
+      box-shadow: none;
+    }
+     .has-search input[type=search] {
+      border: 1px solid #726f75;
+      border-radius: 7px;
+    } 
+    
+    /* .has-search .input-group-append .btn:focus {
+      border-color: #552097;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #552097;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #552097;
+    } */
+    
+    .has-search .fa {
+      color: #726f75;
+      font-size: larger;
+      
+    }
+    
+    .has-search .input-group-prepend {
+      border : 1px solid transparent;
+      /* margin-top: -1px; */
+      margin-right: 5px;
+      
+    }
+  
+    .community-list-item:hover {
+      background-color: #e3e3e3;
+    }
+    /* .form-control{
+      width: 50%;
+      height: 100;
+    } */
+    
+  
+    /*.has-search .form-control {
+      
+       padding-left: 2.375rem;
+      border: 1px solid #ce93d8;
+    box-shadow: 0 0 0 1px #ce93d8; 
+  } */
+  
+  /* .has-search .form-control input[type=search] */
+  
+  /* .has-search .form-control-feedback {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 2.375rem;
+      height: 2.375rem;
+      line-height: 2.375rem;
+      text-align: center;
+      pointer-events: none;
+      color: #aaa;
+  } */
+  

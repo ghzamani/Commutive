@@ -1,0 +1,68 @@
+{
+  "name": "commutive",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@mobiscroll/react": "https://npm.mobiscroll.com/@mobiscroll/react-trial/-/react-trial-4.10.8.tgz",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "formik": "^2.2.5",
+    "jquery": "^3.5.1",
+    "mdbreact": "^5.0.1",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.1",
+    "react-advanced-datetimerange-picker": "^1.0.13",
+    "react-big-calendar": "^0.30.0",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-sidebar": "0.0.1",
+    "react-bootstrap-validation": "^0.1.11",
+    "react-dom": "^17.0.1",
+    "react-horizontal-scrolling-menu": "^0.7.8",
+    "react-infinite-scroll-component": "^5.1.0",
+    "react-insta-stories": "^2.1.2",
+    "react-moment": "^1.0.0",
+    "react-redux-toastr": "^7.6.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-show-more-text": "^1.4.6",
+    "react-sidebar-ui": "^1.2.1",
+    "react-toastify": "^6.0.0-rc.3",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-edit-inline": "^1.0.8"
+  }
+}

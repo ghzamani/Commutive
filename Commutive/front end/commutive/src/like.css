@@ -1,0 +1,65 @@
+.likePost svg {
+    cursor: pointer;
+    overflow: visible;
+    width: 60px;
+    border-radius: 50%;
+    padding: 2px;
+    transition: .2s ease;
+  }
+  .likePost svg:hover {
+    background: rgba(224, 36, 94, 0.1);
+  }
+  .likePost svg:hover #heart {
+    stroke: #e0245e;
+  }
+  .likePost svg:active {
+    background: rgba(224, 36, 94, 0.2);
+  }
+  .likePost svg #heart {
+    transform-origin: center;
+    fill: transparent;
+    stroke: #5b7083;
+    stroke-width: 2px;
+    transition: .2s ease;
+  }
+  .likePost svg .circle {
+    transform-origin: 29.5px 29.5px;
+  }
+ .like-button{
+      height: 38px;
+      padding: 0 30px;
+      font-size: 11px;
+      background-color: transparent;
+      border-radius: 6px;
+      background: url('https://api.iconify.design/ion:heart.svg') no-repeat center center / contain;
+
+  }  
+  .buttonTrue {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buttonFalse {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }

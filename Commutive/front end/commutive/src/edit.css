@@ -1,0 +1,13 @@
+.edit-community{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-community .form-statusbar{
+    padding: 10px;
+}
+
+.edit-community .input-disabled{
+    background-color:#FFF !important;
+}

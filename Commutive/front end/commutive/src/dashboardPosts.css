@@ -1,0 +1,18 @@
+.loading {  
+    width: 35px;  
+    height: 35px;  
+    display: inline-block;  
+    border: 5px solid rgba(189,189,189 ,0.25);  
+    border-left-color: #33aba3;  
+    border-top-color: #33aba3; 
+    border-radius: 50%; 
+    animation: rotate 1s infinite linear;
+    margin: 20px;
+}
+@keyframes rotate { to {  transform: rotate(1turn) }}
+
+.dashboardPosts{
+    width: 100%;
+    padding: 20px 10% 0px 10%;
+    justify-content: center !important;
+}

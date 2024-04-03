@@ -1,0 +1,153 @@
+/* 
+.i{
+  position: relative;
+} */
+
+.nameInputBox{
+  border-bottom: 1px solid gray;
+  padding: 0.25rem 0;
+}
+
+.commentInputBox{
+  /*border-top: 1px solid gray;*/
+  padding-top: 5px;
+  padding: 0.25rem 0;
+}
+
+/* .comment-form-page{
+  position: fixed;
+  bottom: 0;
+  width: auto;
+} */
+
+/* .comment-box {
+    max-width: 37.5rem;
+    color: rgb(255, 255, 255);
+    background-color: #576777;
+    border-radius: 0.875rem;
+    padding: 0.2rem 1rem 2rem;
+    margin: 0 auto;
+  } */
+
+#comment-reveal {
+    float: right;
+    background-color: #33aba3;
+    color: rgb(0, 0, 0);
+  }
+
+.comment-count {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+  }
+
+/* .comment-form {
+    background-color: #e3e3e3;
+    border-radius: 0.25rem;
+    padding: 1rem;  
+  } */
+
+.comment-form-fields {
+    /*margin-bottom: 0.25rem;*/
+    /*input, textarea {*/
+      border: none;
+      /*border-bottom: 1px solid grey;*/
+      font-size: 0.85rem;
+      padding: 0.25rem 0;
+      width: 99%;
+      
+      /*focus {
+        border-bottom-color: blue;*/
+        outline: none;
+      /*}*/
+    /*}*/
+    /*textarea {*/
+      font-style: italic;
+    /*}*/
+  }
+
+.comment {
+    border-bottom: 0.1rem solid grey;
+    padding-top: 5px;
+  }
+
+  .comment-header{
+    font-family:fantasy;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: auto;
+  }
+
+.comment-body {
+  font-family:fantasy;
+  font-size:18px;
+  margin-left: 5px;
+    margin-bottom: -5px;
+  }
+
+
+.comment button {
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    /*padding: 0.75em;  12px/16px */
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+/*     
+    &:hover { */
+      
+    /* } 
+    &:focus {*/
+      outline: none;
+    /* } */
+  }
+  .comment-likeCount-button{
+    float: right;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .comment-likeCountfalse{
+    float: right;
+    /* outline: none;
+    border: none; */
+    color: rgb(156, 153, 153);
+  }
+
+  .comment-likeCounttrue{
+    float: right;
+    /* outline: none;
+    border: none; */
+    color:#ec5858;
+    
+  }
+
+  .comment-likeCount{
+    float: right;
+    outline: none;
+    border: none;
+    background: transparent;
+
+  }
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  .reply_button{
+    opacity: 0.5;
+    /* padding-left: 10px; */
+    
+  }
+
+  .countOfLiked{
+    opacity: 0.6;
+    font-size: 0.80rem;
+    font-weight: bold;
+    padding-right: 10px;
+  }

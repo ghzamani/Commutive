@@ -1,0 +1,66 @@
+/* .backgroundPro{
+    width: 100%;
+    height: 100%;
+    background-color: #e3e3e3;
+    position: absolute;
+}
+*/
+
+.content{
+    width: 50%;
+    height: 13%;
+    margin-top: 2%;
+    background-color: white;
+} 
+
+/* .a div:hover{
+    background-image: "url(https://image.kpopmap.com/2020/01/Baekhyun-exo-42906691-1280-1920.jpg)";
+    background-position: "center";
+    background-size: "cover";
+    border: "ridge";
+    height:"300px";
+} */
+
+ .text{
+    margin-top: 3.1%;
+    margin-left: 2%;
+    font-family: cursive;
+}
+
+.header{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.User{
+    margin-left: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Pass{
+    margin-left: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.Email{
+    margin-left: 5%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+@media(min-width:500px){
+    #sidebar ~ .backgroundPro {
+      margin-left: 250px;
+      transition: all 0.3s;
+    }
+    
+    #sidebar.active ~ .backgroundPro{
+      margin-left: 0px;
+    }
+  }
